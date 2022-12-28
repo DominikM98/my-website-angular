@@ -1,0 +1,44 @@
+.container{
+  border:3px solid black;
+  display: flex;
+  align-items: center;
+  height: 5%;
+  padding-left: 15%;
+
+  .navbar-brand{
+    color:white;
+    text-decoration: none;
+    font-size: x-large;
+    margin-right: 1rem;
+  }
+
+  .navbar-collapse{
+    display: flex!important;
+    flex-basis: auto;
+    width: 110em;
+    border:1px solid green;
+
+    .navbar-nav{
+      display: flex;
+      flex-direction: row;
+      list-style: none;
+      margin-right: 0!important;
+    }
+
+    a{
+      text-decoration: none;
+      background-color: transparent;
+      color:white;
+      font-size:x-large;
+    }
+
+    .nav-link{
+      padding-right:0.5em;
+      padding-left:0.5em;
+    }
+
+    .ml-auto{
+      margin-left: auto!important;
+    }
+  }
+}
