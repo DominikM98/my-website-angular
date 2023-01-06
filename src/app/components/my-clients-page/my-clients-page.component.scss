@@ -1,0 +1,56 @@
+.container{
+  height: 95%;
+  position: relative;
+  top: 5%;
+  background-color:#152A47;
+  min-width: 99.15vw;
+  left: -0.15rem;
+
+  .img-fluid{
+    width: 7%;
+    position: relative;
+    left: 47%;
+    top:15%;
+  }
+
+  .carousel-item{
+    color: white;
+    font-size: x-large;
+  }
+
+  .contents{
+    position: relative;
+    top:20%;
+    margin:0 auto;
+    height: 50%;
+    width: 70%;
+  }
+
+  .carousel-item{
+    position: relative;
+    left: 15%;
+    top:10%;
+    width: 70%;
+    height: 80%;
+
+
+    .name{
+      position: absolute;
+      left: 1rem;
+      top: 1rem;
+      padding-right: 2rem;
+      word-wrap: break-word;
+      text-align: justify;
+    }
+
+    .sign{
+      position: absolute;
+      right: 1rem;
+      bottom: 0;
+      font-size:xx-large;
+    }
+  }
+
+
+
+}

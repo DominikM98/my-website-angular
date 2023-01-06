@@ -1,0 +1,95 @@
+<div class="container-fluid">
+  <div class="contents row">
+    <div class="social-media-section col-4">
+        <div class="email-section row">
+          <img src="..\..\..\assets\images\mail.png" alt="Mail image" class="img-fluid">
+          <p class="name-social-media">Email</p>
+          <a href="mailto:majcher.dominik@op.pl" class="address-social-media">majcher.dominik@op.pl</a>
+        </div>
+        <div class="facebook-section row">
+          <img src="..\..\..\assets\images\face.png" alt="Facebook logo" class="img-fluid">
+          <p class="name-social-media">Facebook</p>
+          <a class="address-social-media" href="https://www.facebook.com/dominik.majcher.37">Dominik Majcher</a>
+        </div>
+        <div class="github-section row">
+          <img src="..\..\..\assets\images\github.png" alt="Github logo" class="img-fluid">
+          <p class="name-social-media">Github</p>
+          <a class="address-social-media" href="https://github.com/DominikM98?tab=repositories">DominikM98</a>
+        </div>
+        <div class="linkedin-section row">
+          <img src="..\..\..\assets\images\linkedin.png" alt="Linkedin logo" class="img-fluid">
+          <p class="name-social-media">Linkedin</p>
+          <a class="address-social-media" href="https://www.linkedin.com/in/dominik-majcher-8661a81a8/">Dominik Majcher</a>
+        </div>
+    </div>
+    <div class="form-section col-8">
+      <form>
+        <div class="row two-col-in-row">
+          <div class="form-group col">
+              <label for="subjectContact">Temat</label>
+              <select class="form-control" id="subjectContact" required [(ngModel)]="subject">
+                <option selected> Wybierz temat kontaktu </option>
+                <option>Współpraca</option>
+                <option>Uwagi/propozycje zmian na stronie</option>
+                <option>Pomoc przy dodaniu opinii</option>
+                <option>Inne</option>
+              </select>
+          </div>
+          <div class="form-group col">
+              <label for="subthemeContact">Podtemat</label>
+              <select class="form-control" id="subthemeContact" [(ngModel)]="subtheme">
+                <option selected> Wybierz podtemat kontaktu </option>
+                <option>Praca w firmie</option>
+                <option>Jednorazowy projekt</option>
+                <option>Nie posiadam hasła</option>
+                <option>Inny problem</option>
+              </select>
+          </div>
+        </div>
+        <div class="row two-col-in-row">
+          <div class="form-group col">
+            <label for="fullnameContact">Imię i nazwisko</label>
+            <input type="text" class="form-control" id="fullname" placeholder="Wprowadź imię i nazwisko" required [(ngModel)]="fullname">
+          </div>
+          <div class="form-group col">
+            <label for="emailContact">Adres email</label>
+            <input type="email" class="form-control" id="emailContact" aria-describedby="emailHelp" placeholder="Wprowadź email" required [(ngModel)]="email">
+          </div>
+        </div>
+        <div class="row long-message">
+          <div class="form-group">
+            <label for="messageContact">Treść wiadomości</label>
+            <textarea class="form-control" id="messageContact" rows="8" placeholder="Wprowadź treść wiadomości" required [(ngModel)]="message"></textarea>
+          </div>
+        </div>
+
+      </form>
+      <div class="row send-button">
+        <a class="btn ">Wyślij wiadomość</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--   <div class="row">
+    <div class="col">
+
+    </div>
+    <div class="col">
+
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+
+    </div>
+    <div class="col">
+
+    </div>
+  </div>
+  <div class="row">
+
+  </div>
+  <div class="row">
+
+  </div>-->

@@ -1,0 +1,41 @@
+.containter{
+  height: 95%;
+  position: relative;
+  top: 5%;
+  background-color:#152A47;
+  min-width: 99.15vw;
+  left: -0.15rem;
+
+  .title{
+    color: white;
+    font-size: xxx-large;
+    font-family: 'Poppins';
+    position: relative;
+    top: 12%;
+  }
+
+  .name-project{
+    color: white;
+    font-family: 'Poppins';
+    font-size: xx-large;
+    text-align: center;
+    position: relative;
+    top:22%;
+    word-wrap: break-word;
+  }
+
+  img{
+    width: 30%;
+    position: relative;
+    left: 35%;
+    top:20%;
+  }
+
+  .my-projects{
+    position: relative;
+    top:12%;
+    width:60%;
+    margin:0 auto;
+    height: 60%;
+  }
+}

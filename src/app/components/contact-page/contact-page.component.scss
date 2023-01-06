@@ -1,0 +1,133 @@
+.container-fluid{
+
+  height: 95%;
+  position: relative;
+  top: 5%;
+  background-color:#152A47;
+  min-width: 99.15vw;
+  left: -0.15rem;
+
+  .contents{
+
+    margin: 0 auto;
+    position: relative;
+    top: 7%;
+    height: 80%;
+    width: 70%;
+
+    .social-media-section{
+
+
+      .name-social-media{
+        color: white;
+        font-size: x-large;
+        position: relative;
+        left: 12.5%;
+        bottom: 4%;
+        font-family: 'Poppins';
+        font-weight: bold;
+      }
+
+      .img-fluid{
+        position: relative;
+        top: 25%;
+        left: 2%;
+      }
+
+      .address-social-media{
+        color: white;
+        font-size:x-large;
+        position: relative;
+        bottom: 15%;
+        left: 2%;
+        text-decoration: none;
+        font-family: 'Poppins';
+      }
+
+      .email-section{
+        box-shadow: 0 30px 0 -23px black;
+        height: 25%;
+
+        .img-fluid{
+          width: 12.5%;
+          height: 20%;
+        }
+      }
+
+      .facebook-section{
+        box-shadow: 0 30px 0 -23px black;
+        height: 25%;
+
+        .img-fluid{
+          width: 12.5%;
+          height: 15%;
+        }
+      }
+
+      .github-section{
+        box-shadow: 0 30px 0 -23px black;
+        height: 25%;
+
+        .img-fluid{
+          width: 12.5%;
+          height: 15%;
+        }
+      }
+
+      .linkedin-section{
+        height: 25%;
+
+        .img-fluid{
+          width: 12.5%;
+          height: 15%;
+        }
+      }
+    }
+
+    .form-section{
+
+
+      .two-col-in-row{
+        padding: 2rem 1rem 5rem 1rem;
+      }
+
+      .long-message{
+        padding: 2rem 1rem 4rem 1rem;
+      }
+
+      label{
+        color: white;
+        font-size: x-large;
+        margin-bottom:0.5rem;
+      }
+
+      input, select, textarea{
+        background-color: #111D34;
+        border-color: #111D34
+      }
+
+      ::placeholder, select{
+        color: white;
+      }
+
+      .send-button{
+        align-items: center;
+        justify-content: center;
+
+        .btn{
+          background-color: #498FF2;
+          color: white;
+          font-size: large;
+          font-family: 'Poppins';
+          width: 50%;
+          border-radius: 10rem;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+
+    }
+  }
+
+}
